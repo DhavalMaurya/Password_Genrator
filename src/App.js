@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Password_Gen from './Password_Gen.js';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Password_Gen  />
+    </>
   );
 }
 
 export default App;
+
+
+
+
+
+
+  // let str = "abcdefgh";
+  // let randomstr = "";
+  // let lengthstr = 7;
+
+  // for (let i = 0;i < lengthstr;i++){
+  //   let randomindx = Math.floor(Math.random()*lengthstr);
+  //   randomstr += str.charAt(randomindx);
+  // }
+
+  
+  //     return   console.log(randomstr);
